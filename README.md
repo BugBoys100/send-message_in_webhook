@@ -19,11 +19,11 @@ Pour installer Send-message-in-webhook, faites `py -m pip install send-message-i
 - Dans votre script python, importez le module puis appelez la fonction `message_webhook()`
 
 ### Paramètres 
-- lien (lien du webhook discord, commençant par `'https://discord.com/api/webhooks/'`), str, __Obligatoire__
-- message (message à envoyer dans le webhook), str, __Obligatoire__
-- color (couleur de l'embed), int, __Facultatif__
-- name_webhook (nom du webhook qui sera envoyé), str, __Facultatif__
-- avatar_webhook (avatar du webhook envoyé), str, __Facultatif__
+- `lien` (lien du webhook discord, commençant par `'https://discord.com/api/webhooks/'`), str, __Obligatoire__
+- `message` (message à envoyer dans le webhook), str, __Obligatoire__
+- `color` (couleur de l'embed), int, __Facultatif__
+- `name_webhook` (nom du webhook qui sera envoyé), str, __Facultatif__
+- `avatar_webhook` (avatar du webhook envoyé), str, __Facultatif__
 
 ## Exemple d'utilisation :
 
@@ -47,5 +47,5 @@ Les modifications ou ajouts à venir :
 
 ## License ©️
 
-Ce projet est sous licence ``GNU General Public License v3.0`` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations
+Ce projet est sous licence ``Eclipse Public License 2.0`` - voir le fichier [LICENSE.md](LICENSE.md) pour plus d'informations
 
