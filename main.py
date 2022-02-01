@@ -28,6 +28,3 @@ def message_webhook(lien:str, message:str, color=0xFF0000, name_webhook='', avat
         }
 
         post(lien, data=dumps(embed).encode("utf-8"), headers=headers)
-
-
-message_webhook(lien='https://discord.com/api/webhooks/932310737425158164/m36x1TJytSNaCH29qqb-S53O0Q6hXsVWZS7zfLkwMot3AtjV9OmElLagPQE3IPsQ0z0e',message='yo',  color="0xFF0000")
